@@ -1,0 +1,66 @@
+/* Header Styling */
+header {
+    background-color: #f2f2f2;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.innovation-left, .innovation-right {
+    font-style: italic;
+}
+
+/* Body Styling */
+main {
+    padding: 20px;
+    text-align: center;
+}
+.search-container {
+    margin-bottom: 20px;
+}
+.search-container input[type="text"] {
+    padding: 10px;
+    width: 60%;
+}
+.search-container button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.recipe-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.recipe {
+    margin-bottom: 20px;
+}
+.recipe img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-innovation p {
+    font-size: 14px;
+    margin: 0;
+}
+.footer-logo img {
+    width: 100px;
+    height: auto;
+}
